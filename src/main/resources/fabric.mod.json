@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "betterthansteel",
+	"version": "${version}",
+	"name": "Better Than Steel",
+	"description": "Adds steel tools and armour inspired by Better Than Adventure.",
+	"authors": [
+		"Chunky Monkey"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/betterthansteel/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.chunkymonkey.betterthansteel.BetterThanSteel"
+		],
+        "client": [
+            "net.chunkymonkey.betterthansteel.BetterThanSteelClient"
+        ],
+		"fabric-datagen": [
+			"net.chunkymonkey.betterthansteel.BetterThanSteelDataGenerator"
+		]
+	},
+	"mixins": [
+		"betterthansteel.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
