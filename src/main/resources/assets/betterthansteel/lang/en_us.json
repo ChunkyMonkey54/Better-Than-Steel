@@ -1,5 +1,14 @@
 {
   "itemgroup.steel": "Better Than Steel",
+
+  "item.betterthansteel.steel_scrap": "Steel Scrap",
   "item.betterthansteel.steel_ingot": "Steel Ingot",
-  "item.betterthansteel.steel_scrap": "Steel Scrap"
+
+  "item.betterthansteel.steel_shovel": "Steel Shovel",
+  "item.betterthansteel.steel_pickaxe": "Steel Pickaxe",
+  "item.betterthansteel.steel_axe": "Steel Axe",
+  "item.betterthansteel.steel_hoe": "Steel Hoe",
+  "item.betterthansteel.steel_sword": "Steel Sword",
+
+  "block.betterthansteel.steel_block": "Block of Steel"
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterthansteel:steel_scrap"
+    },
+    {
+      "item": "betterthansteel:steel_scrap"
+    },
+    {
+      "item": "betterthansteel:steel_scrap"
+    }
+  ],
+  "result": {
+    "item": "betterthansteel:steel_ingot"
+  }
+}

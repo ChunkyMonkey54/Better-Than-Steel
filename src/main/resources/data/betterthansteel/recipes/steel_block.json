@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "betterthansteel:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "betterthansteel:steel_block"
+  }
+}

@@ -1,5 +1,7 @@
 package net.chunkymonkey.betterthansteel;
 
+import net.chunkymonkey.betterthansteel.block.ModBlocks;
+import net.chunkymonkey.betterthansteel.datagen.ModModelProvider;
 import net.chunkymonkey.betterthansteel.item.ModItemGroups;
 import net.chunkymonkey.betterthansteel.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +17,6 @@ public class BetterThanSteel implements ModInitializer {
 	public void onInitialize() {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }
