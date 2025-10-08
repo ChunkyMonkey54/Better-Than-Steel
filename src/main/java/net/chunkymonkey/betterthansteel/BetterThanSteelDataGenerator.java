@@ -11,6 +11,6 @@ public class BetterThanSteelDataGenerator implements DataGeneratorEntrypoint {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
         pack.addProvider(ModItemTagProvider::new);
-        //pack.addProvider(ModModelProvider::new);;
+        pack.addProvider(ModModelProvider::new);;
 	}
 }
