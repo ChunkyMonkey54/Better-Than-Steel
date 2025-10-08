@@ -3,6 +3,7 @@
 
   "item.betterthansteel.steel_scrap": "Steel Scrap",
   "item.betterthansteel.steel_ingot": "Steel Ingot",
+  "block.betterthansteel.steel_block": "Block of Steel",
 
   "item.betterthansteel.steel_shovel": "Steel Shovel",
   "item.betterthansteel.steel_pickaxe": "Steel Pickaxe",
@@ -10,5 +11,8 @@
   "item.betterthansteel.steel_hoe": "Steel Hoe",
   "item.betterthansteel.steel_sword": "Steel Sword",
 
-  "block.betterthansteel.steel_block": "Block of Steel"
+  "item.betterthansteel.steel_helmet": "Steel Helmet",
+  "item.betterthansteel.steel_chestplate": "Steel Chestplate",
+  "item.betterthansteel.steel_leggings": "Steel Leggings",
+  "item.betterthansteel.steel_boots": "Steel Boots"
 }

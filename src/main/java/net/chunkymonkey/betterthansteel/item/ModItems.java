@@ -23,6 +23,16 @@ public class ModItems {
     public static final Item STEEL_SWORD = registerItem("steel_sword",
             new SwordItem(ModToolMaterial.STEEL, 3, -2.4f, new FabricItemSettings()));
 
+    // Steel Armor
+    public static final Item STEEL_HELMET = registerItem("steel_helmet",
+        new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item STEEL_CHESTPLATE = registerItem("steel_chestplate",
+            new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item STEEL_LEGGINGS = registerItem("steel_leggings",
+            new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item STEEL_BOOTS = registerItem("steel_boots",
+            new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BetterThanSteel.MOD_ID, name), item);
     }

@@ -17,14 +17,20 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.STEEL_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.STEEL_SCRAP);
                         entries.add(ModItems.STEEL_INGOT);
+                        entries.add(ModBlocks.STEEL_BLOCK);
 
+                        // Steel Tools
                         entries.add(ModItems.STEEL_SHOVEL);
                         entries.add(ModItems.STEEL_PICKAXE);
                         entries.add(ModItems.STEEL_AXE);
                         entries.add(ModItems.STEEL_HOE);
                         entries.add(ModItems.STEEL_SWORD);
 
-                        entries.add(ModBlocks.STEEL_BLOCK);
+                        // Steel Armor
+                        entries.add(ModItems.STEEL_HELMET);
+                        entries.add(ModItems.STEEL_CHESTPLATE);
+                        entries.add(ModItems.STEEL_LEGGINGS);
+                        entries.add(ModItems.STEEL_BOOTS);
                     }).build());
 
     public static void registerItemGroups() {
