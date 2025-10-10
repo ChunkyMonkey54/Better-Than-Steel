@@ -15,6 +15,7 @@ public class ModItemGroups {
             new Identifier(BetterThanSteel.MOD_ID, "steel"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.steel"))
                     .icon(() -> new ItemStack(ModItems.STEEL_INGOT)).entries((displayContext, entries) -> {
+                        // Steel
                         entries.add(ModItems.STEEL_SCRAP);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModBlocks.STEEL_BLOCK);
@@ -31,6 +32,10 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_CHESTPLATE);
                         entries.add(ModItems.STEEL_LEGGINGS);
                         entries.add(ModItems.STEEL_BOOTS);
+
+                        // Misc Steel Items
+                        entries.add(ModItems.STEEL_SHEARS);
+                        entries.add(ModItems.FLINT_AND_STEEL);
                     }).build());
 
     public static void registerItemGroups() {

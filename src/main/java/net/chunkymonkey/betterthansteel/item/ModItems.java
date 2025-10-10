@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    // Steel
     public static final Item STEEL_SCRAP = registerItem("steel_scrap", new Item(new FabricItemSettings()));
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
 
@@ -32,6 +33,12 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item STEEL_BOOTS = registerItem("steel_boots",
             new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    // Misc Steel Items
+    public static final Item STEEL_SHEARS = registerItem("steel_shears",
+            new ShearsItem(new Item.Settings().maxDamage(4608)));
+    public static final Item FLINT_AND_STEEL = registerItem("flint_and_steel",
+            new FlintAndSteelItem(new Item.Settings().maxDamage(4608)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BetterThanSteel.MOD_ID, name), item);

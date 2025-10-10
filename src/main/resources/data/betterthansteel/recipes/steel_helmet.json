@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "betterthansteel:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "betterthansteel:steel_helmet"
+  }
+}

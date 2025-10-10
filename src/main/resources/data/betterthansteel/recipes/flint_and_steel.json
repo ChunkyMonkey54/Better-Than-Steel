@@ -3,13 +3,13 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "betterthansteel:steel_scrap"
+      "item": "betterthansteel:steel_ingot"
     },
     {
       "item": "minecraft:flint"
     }
   ],
   "result": {
-    "item": "minecraft:flint_and_steel"
+    "item": "betterthansteel:flint_and_steel"
   }
 }
