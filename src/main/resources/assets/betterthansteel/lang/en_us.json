@@ -19,6 +19,25 @@
   "item.betterthansteel.steel_shears": "Steel Shears",
   "item.betterthansteel.flint_and_steel": "Flint and Steel",
 
+  "item.betterthansteel.emerald_shovel": "Emerald Shovel",
+  "item.betterthansteel.emerald_pickaxe": "Emerald Pickaxe",
+  "item.betterthansteel.emerald_axe": "Emerald Axe",
+  "item.betterthansteel.emerald_hoe": "Emerald Hoe",
+  "item.betterthansteel.emerald_sword": "Emerald Sword",
+
   "item.betterthansteel.ruby": "Ruby",
-  "item.betterthansteel.sapphire": "Sapphire"
+
+  "item.betterthansteel.ruby_shovel": "Ruby Shovel",
+  "item.betterthansteel.ruby_pickaxe": "Ruby Pickaxe",
+  "item.betterthansteel.ruby_axe": "Ruby Axe",
+  "item.betterthansteel.ruby_hoe": "Ruby Hoe",
+  "item.betterthansteel.ruby_sword": "Ruby Sword",
+
+  "item.betterthansteel.sapphire": "Sapphire",
+
+  "item.betterthansteel.sapphire_shovel": "Sapphire Shovel",
+  "item.betterthansteel.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.betterthansteel.sapphire_axe": "Sapphire Axe",
+  "item.betterthansteel.sapphire_hoe": "Sapphire Hoe",
+  "item.betterthansteel.sapphire_sword": "Sapphire Sword"
 }

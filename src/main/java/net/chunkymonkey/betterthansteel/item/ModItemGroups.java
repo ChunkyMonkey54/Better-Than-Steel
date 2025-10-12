@@ -37,9 +37,32 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_SHEARS);
                         entries.add(ModItems.FLINT_AND_STEEL);
 
-                        // Gemstones
+                        // Emerald Tools
+                        entries.add(ModItems.EMERALD_SHOVEL);
+                        entries.add(ModItems.EMERALD_PICKAXE);
+                        entries.add(ModItems.EMERALD_AXE);
+                        entries.add(ModItems.EMERALD_HOE);
+                        entries.add(ModItems.EMERALD_SWORD);
+
+                        // Ruby
                         entries.add(ModItems.RUBY);
+
+                        // Ruby Tools
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_HOE);
+                        entries.add(ModItems.RUBY_SWORD);
+
+                        // Sapphire
                         entries.add(ModItems.SAPPHIRE);
+
+                        // Sapphire Tools
+                        entries.add(ModItems.SAPPHIRE_SHOVEL);
+                        entries.add(ModItems.SAPPHIRE_PICKAXE);
+                        entries.add(ModItems.SAPPHIRE_AXE);
+                        entries.add(ModItems.SAPPHIRE_HOE);
+                        entries.add(ModItems.SAPPHIRE_SWORD);
                     }).build());
 
     public static void registerItemGroups() {

@@ -1,5 +1,6 @@
 package net.chunkymonkey.betterthansteel.item;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -7,7 +8,13 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     STEEL(3, 2031, 7f, 2f, 12,
-            () -> Ingredient.ofItems(ModItems.STEEL_INGOT));
+            () -> Ingredient.ofItems(ModItems.STEEL_INGOT)),
+    EMERALD(3, 500, 8f, 3f, 10,
+            () -> Ingredient.ofItems(Items.EMERALD)),
+    RUBY(3, 500, 8f, 3f, 10,
+            () -> Ingredient.ofItems(ModItems.RUBY)),
+    SAPPHIRE(3, 500, 8f, 3f, 10,
+            () -> Ingredient.ofItems(ModItems.SAPPHIRE));
 
     private final int miningLevel;
     private final int itemDurability;

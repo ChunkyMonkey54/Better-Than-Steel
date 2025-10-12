@@ -40,9 +40,47 @@ public class ModItems {
     public static final Item FLINT_AND_STEEL = registerItem("flint_and_steel",
             new FlintAndSteelItem(new Item.Settings().maxDamage(2031)));
 
-    // Gemstones
+    // Emerald Tools
+    public static final Item EMERALD_SHOVEL = registerItem("emerald_shovel",
+            new ShovelItem(ModToolMaterial.EMERALD, 1.5f, -3f, new FabricItemSettings()));
+    public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
+            new ShovelItem(ModToolMaterial.EMERALD, 1, -2.8f, new FabricItemSettings()));
+    public static final Item EMERALD_AXE = registerItem("emerald_axe",
+            new ShovelItem(ModToolMaterial.EMERALD, 5.0f, -3f, new FabricItemSettings()));
+    public static final Item EMERALD_HOE = registerItem("emerald_hoe",
+            new ShovelItem(ModToolMaterial.EMERALD, -3, 0f, new FabricItemSettings()));
+    public static final Item EMERALD_SWORD = registerItem("emerald_sword",
+            new ShovelItem(ModToolMaterial.EMERALD, 3, -2.4f, new FabricItemSettings()));
+
+    // Ruby
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+
+    // Ruby Tools
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
+            new ShovelItem(ModToolMaterial.RUBY, 1.5f, -3f, new FabricItemSettings()));
+    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
+            new ShovelItem(ModToolMaterial.RUBY, 1, -2.8f, new FabricItemSettings()));
+    public static final Item RUBY_AXE = registerItem("ruby_axe",
+            new ShovelItem(ModToolMaterial.RUBY, 5.0f, -3f, new FabricItemSettings()));
+    public static final Item RUBY_HOE = registerItem("ruby_hoe",
+            new ShovelItem(ModToolMaterial.RUBY, -3, 0f, new FabricItemSettings()));
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new ShovelItem(ModToolMaterial.RUBY, 3, -2.4f, new FabricItemSettings()));
+
+    // Sapphire
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
+
+    // Sapphire Tools
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel",
+            new ShovelItem(ModToolMaterial.SAPPHIRE, 1.5f, -3f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe",
+            new ShovelItem(ModToolMaterial.SAPPHIRE, 1, -2.8f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe",
+            new ShovelItem(ModToolMaterial.SAPPHIRE, 5.0f, -3f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe",
+            new ShovelItem(ModToolMaterial.SAPPHIRE, -3, 0f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword",
+            new ShovelItem(ModToolMaterial.SAPPHIRE, 3, -2.4f, new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BetterThanSteel.MOD_ID, name), item);
