@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    STEEL(3, 4608, 7f, 2f, 12,
+    STEEL(3, 2031, 7f, 2f, 12,
             () -> Ingredient.ofItems(ModItems.STEEL_INGOT));
 
     private final int miningLevel;

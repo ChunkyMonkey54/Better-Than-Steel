@@ -10,7 +10,7 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    STEEL("steel", 75, new int[] { 2, 7, 5, 2 }, 9,
+    STEEL("steel", 37, new int[] { 2, 7, 5, 2 }, 9,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 1.0F, 0.1F,
             () -> Ingredient.ofItems(ModItems.STEEL_INGOT));
 

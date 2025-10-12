@@ -36,9 +36,13 @@ public class ModItems {
 
     // Misc Steel Items
     public static final Item STEEL_SHEARS = registerItem("steel_shears",
-            new ShearsItem(new Item.Settings().maxDamage(4608)));
+            new ShearsItem(new Item.Settings().maxDamage(2031)));
     public static final Item FLINT_AND_STEEL = registerItem("flint_and_steel",
-            new FlintAndSteelItem(new Item.Settings().maxDamage(4608)));
+            new FlintAndSteelItem(new Item.Settings().maxDamage(2031)));
+
+    // Gemstones
+    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BetterThanSteel.MOD_ID, name), item);

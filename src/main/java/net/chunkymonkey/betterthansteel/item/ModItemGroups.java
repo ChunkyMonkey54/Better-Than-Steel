@@ -36,6 +36,10 @@ public class ModItemGroups {
                         // Misc Steel Items
                         entries.add(ModItems.STEEL_SHEARS);
                         entries.add(ModItems.FLINT_AND_STEEL);
+
+                        // Gemstones
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.SAPPHIRE);
                     }).build());
 
     public static void registerItemGroups() {
