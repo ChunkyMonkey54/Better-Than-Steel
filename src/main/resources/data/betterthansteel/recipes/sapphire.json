@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterthansteel:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "betterthansteel:sapphire",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "betterthansteel:ruby"
+    }
+  },
+  "result": {
+    "item": "betterthansteel:ruby_block"
+  }
+}

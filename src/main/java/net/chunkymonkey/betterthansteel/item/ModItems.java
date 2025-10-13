@@ -55,7 +55,6 @@ public class ModItems {
     // Ruby
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
 
-    // Ruby Tools
     public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
             new ShovelItem(ModToolMaterial.RUBY, 1.5f, -3f, new FabricItemSettings()));
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
@@ -70,7 +69,6 @@ public class ModItems {
     // Sapphire
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
 
-    // Sapphire Tools
     public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel",
             new ShovelItem(ModToolMaterial.SAPPHIRE, 1.5f, -3f, new FabricItemSettings()));
     public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe",

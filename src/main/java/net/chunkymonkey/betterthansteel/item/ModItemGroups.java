@@ -46,6 +46,7 @@ public class ModItemGroups {
 
                         // Ruby
                         entries.add(ModItems.RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
 
                         // Ruby Tools
                         entries.add(ModItems.RUBY_SHOVEL);
@@ -56,6 +57,7 @@ public class ModItemGroups {
 
                         // Sapphire
                         entries.add(ModItems.SAPPHIRE);
+                        entries.add(ModBlocks.SAPPHIRE_BLOCK);
 
                         // Sapphire Tools
                         entries.add(ModItems.SAPPHIRE_SHOVEL);
