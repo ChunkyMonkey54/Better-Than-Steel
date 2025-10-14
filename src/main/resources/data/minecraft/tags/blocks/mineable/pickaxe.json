@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "betterthansteel:steel_block",
+    "betterthansteel:ruby_ore",
+    "betterthansteel:deepslate_ruby_ore",
+    "betterthansteel:ruby_block",
+    "betterthansteel:sapphire_ore",
+    "betterthansteel:deepslate_sapphire_ore",
+    "betterthansteel:sapphire_block"
+  ]
+}
