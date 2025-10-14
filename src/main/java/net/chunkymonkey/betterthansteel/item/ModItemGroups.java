@@ -45,6 +45,8 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_SWORD);
 
                         // Ruby
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
 
@@ -56,6 +58,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_SWORD);
 
                         // Sapphire
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
 

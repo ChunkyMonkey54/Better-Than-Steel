@@ -1,0 +1,7 @@
+{
+  "parent": "betterthansteel:block/ore",
+  "textures": {
+    "all": "minecraft:block/stone",
+    "overlay": "betterthansteel:block/ruby_ore"
+  }
+}

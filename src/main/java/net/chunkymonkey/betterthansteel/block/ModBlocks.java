@@ -14,8 +14,16 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK)));
+    public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+    public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK)));
 

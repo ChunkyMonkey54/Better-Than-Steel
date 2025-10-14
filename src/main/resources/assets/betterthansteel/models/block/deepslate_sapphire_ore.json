@@ -1,0 +1,7 @@
+{
+  "parent": "betterthansteel:block/ore",
+  "textures": {
+    "all": "minecraft:block/deepslate",
+    "overlay": "betterthansteel:block/sapphire_ore"
+  }
+}
