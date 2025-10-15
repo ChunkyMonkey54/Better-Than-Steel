@@ -4,6 +4,7 @@ import net.chunkymonkey.betterthansteel.block.ModBlocks;
 import net.chunkymonkey.betterthansteel.datagen.ModModelProvider;
 import net.chunkymonkey.betterthansteel.item.ModItemGroups;
 import net.chunkymonkey.betterthansteel.item.ModItems;
+import net.chunkymonkey.betterthansteel.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,5 +19,6 @@ public class BetterThanSteel implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModWorldGeneration.generateModWorldGen();
 	}
 }
